@@ -1,0 +1,124 @@
+.fixed-header {
+	width: 100%;
+	height: 56px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	box-shadow: 0px 0px 5px grey;
+	background: white;
+}
+
+.header-title {
+	margin-top: 70px;
+}
+
+.header-img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.container {
+	width: 1024px;
+	margin:auto;
+}
+
+.navigation {
+	background-color: darkgrey;
+	border-radius: 6px;
+	padding: 10px;
+}
+
+.navigation li {
+	cursor: pointer;
+	display: inline-block;
+	color: white;
+	margin-right: 15px;
+}
+
+.navigation li a{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.navigation li:hover a {
+	color: white;
+}
+
+.navigation ul {
+	margin-block-start:0px;
+	margin-block-end:0px;
+}
+
+.content-top-item {
+	width: 200px;
+	float: left;
+}
+
+.content-top {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.content-top-text {
+	margin-top: 4px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.content-top-image img{
+	border-radius: 10px;
+}
+
+.content-left {
+	float: left;
+	width: 60%;
+}
+
+.cotent-right{
+	float: left;
+	width: 40%;
+}
+
+.fitur-img-wrapper{
+	height: 350px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.fitur-img {
+	background-image: url(image/room.jpeg);
+	transition: all .7s ;
+	overflow: hidden;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+
+}
+
+.fitur-img:hover, .fitur-img:focus{
+	transform:scale(1.2);
+}
+
+.fitur-text {
+	height: 80px;
+	background-color: darkgrey;
+}
+
+.fitur {
+	margin-bottom: 32px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+.fitur-title-wrapper {
+	position: absolute;
+	bottom: 0;
+}
+
+/*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
